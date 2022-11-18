@@ -1,0 +1,36 @@
+@media screen and (max-width:480px) {
+    body {
+        background-color: #EB6440;
+        font-size: small;
+        display: inline;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    body {
+        background-color: #497174;
+        font-size: medium;
+        display: flex;
+    }
+
+    #small {
+        width: calc(100% / 3 * 2);
+    }
+
+    #medium {
+        width: calc(100% / 3);
+    }
+
+    #large {
+        width: 100%;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        background-color: #D6E4E5;
+        font-size: larger;
+        display: flex;
+    }
+}
